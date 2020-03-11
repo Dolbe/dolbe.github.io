@@ -2312,6 +2312,15 @@ input, select, textarea {
 
 	}
 
+	@media screen and (max-width: 500px) {
+
+			#nav a {
+				padding: 0 4px 0 4px;
+				font-size: 9px;
+			}
+
+	}
+
 /* Small */
 
 	@media screen and (max-width: 736px) {
