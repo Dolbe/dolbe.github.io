@@ -153,6 +153,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 0.75em 0;
 }
 
+#top .image img.cert-image {
+	position: absolute;
+	right: -5%;
+	bottom: -5%;
+	width: 30%;
+	border-radius: 0;
+}
+
 .style3 h3 {
   margin: 0;
 }
@@ -2320,6 +2328,11 @@ body > article {
     padding: 0 4px 0 4px;
     font-size: 11px;
   }
+
+  
+  .header-name {
+  	font-size: 1.75em;
+  }
 }
 
 @media screen and (max-width: 340px) {
@@ -2327,6 +2340,12 @@ body > article {
   #nav a {
     padding: 0 3px 0 3px;
     font-size: 9px;
+  }
+
+  #top .image {
+    width: 100%;
+    height: 100%;
+    margin: 0;
   }
 }
 
