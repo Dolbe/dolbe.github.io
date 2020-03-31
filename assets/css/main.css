@@ -159,6 +159,13 @@ h1, h2, h3, h4, h5, h6 {
 	bottom: -5%;
 	width: 30%;
 	border-radius: 0;
+  -webkit-filter: drop-shadow(8px 8px 4px #444 );
+  filter: drop-shadow(8px 8px 4px #444);
+}
+
+.me {
+  -webkit-filter: drop-shadow(5px 5px 2px #444 );
+  filter: drop-shadow(5px 5px 2px #444);
 }
 
 .style3 h3. .style5 h3 {
