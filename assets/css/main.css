@@ -1910,6 +1910,21 @@ ul.social li a:before {
   width: 48px;
 }
 
+#top ul.social li {
+  margin: 0 0.16em 1em 0.16em;
+}
+
+#top ul.social li a:before {
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+
+#top ul.social li a:hover:before {
+  background-color: #fff4;
+}
+
+
 ul.social li a.fa-twitter {
   background-color: #2DAAE4;
 }
