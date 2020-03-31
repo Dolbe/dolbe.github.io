@@ -161,11 +161,11 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 0;
 }
 
-.style3 h3 {
+.style3 h3. .style5 h3 {
   margin: 0;
 }
 
-.style3 .content-item {
+.style3 .content-item, .style5 .content-item {
 	margin-bottom: 1em;
 }
 
@@ -280,7 +280,7 @@ p, ul, ol, dl, table {
   margin-bottom: 2em;
 }
 
-.style3 p {
+.style3 p, .style5 p {
 	margin-bottom: 0;
 }
 
@@ -2082,17 +2082,17 @@ ul.actions li:first-child {
 }
 
 .wrapper.style1 {
-  background-image: none;
-  background-color: #f5f5f5;
-}
-
-.wrapper.style2 {
   background-color: #fafafa;
   text-shadow: 1px 1px 0px #fff;
 }
 
+.wrapper.style2 {
+  background-color: #f3f3f3;
+  text-shadow: 1px 1px 0px #fff;
+}
+
 .wrapper.style3 {
-  background-color: #f4f4f4;
+  background-color: #f0f0f0;
   text-shadow: 1px 1px 0px #fff;
 }
 
@@ -2100,6 +2100,11 @@ ul.actions li:first-child {
   background-color: #303030;
   color: #999;
   text-shadow: -1px -1px 0px #181818;
+}
+
+.wrapper.style5 {
+  background-color: #ededed;
+  text-shadow: 1px 1px 0px #fff;
 }
 
 .wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -2124,7 +2129,7 @@ ul.actions li:first-child {
 /* Nav */
 
 #nav {
-  background-color: #282828;
+  backfile:///Users/dolbe/Documents/workspace/dolbe.github.io/images/me.jpgground-color: #282828;
   text-align: center;
   position: fixed;
   left: 0;
