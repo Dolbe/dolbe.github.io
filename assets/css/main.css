@@ -176,6 +176,31 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 1em;
 }
 
+.style5 .content-item {
+  text-align: left;
+}
+
+.style5 .content-item p {
+  line-height: 1.5;
+}
+
+.style5 .content-item a {
+  margin: 0 0 2em 0;
+}
+
+.style5 .content-item .content-sub-item h4 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.style5 .content-item .content-sub-item p {
+  line-height: 1.5;
+}
+
+.style5 .content-item .content-sub-item {
+  margin: 0 0 0.5em 3em;
+}
+
 .header-name {
   margin: 0 0 0.25em 0;
 }
@@ -2395,6 +2420,22 @@ body > article {
   h1, h2, h3, h4, h5, h6 {
     font-size: 1.25em;
     margin: 0 0 0.4em 0;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  h4 {
+    font-size: 1.15em;
   }
 
   h1 {
